@@ -1,2 +1,2 @@
 # Assembler-OpenU
-open u 2022 A Assembler
+open university Semester 2022 A Assembler
