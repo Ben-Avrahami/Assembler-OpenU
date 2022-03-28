@@ -48,11 +48,7 @@ A **_directive_** line of the following structure:
    ### `.string`
    This direcive receives a string as an operand and stores it in the data image. It stores all characters by their order in the string, encoded ny their *ASCII* values.
    e.g. `STRING1: .string "abcdef"` is a valid directive.
-   
-   ### `.struct`
-   This directive allocates memory for a *structure* consists of 2 fields: the first is an integer and the second is a string.
-   e.g. `STRUCT4: .struct 4, "abc"` is a vaild directive.
-   
+
    ### `.entry`
    This directive outputs a received name of a *label* to the *symbol table*, so that later it will be recognized by other assembly files (and they would be able to use it).
    e.g. 
