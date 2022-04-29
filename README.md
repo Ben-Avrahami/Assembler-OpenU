@@ -6,6 +6,8 @@ Semester 2022 A
 
 Done by Ben Avrahami and Gal Ben Artzi
 
+The Project was graded 100!
+
 
 # Getting Started 
 The project was coded and compiled using Ubuntu, but it may run on all Linux versions.
