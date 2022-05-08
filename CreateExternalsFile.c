@@ -15,6 +15,7 @@ void createExternFile(FILE *externFile, label *externs, int externsCount) {
     /*
      * Go through the places where externals are used and enter the name, the base and the offset
      */
+    
     for (index = ZERO; index < externsCount; index++) {
         fprintf(externFile, "%s BASE %04d\n", externs[index].name, externs[index].base);/*prints the first line with the name and address to the file*/
         fprintf(externFile, "%s OFFSET %04d\n", externs[index].name, externs[index].base + ONE);/*prints the first line with the name and offset to the file*/
