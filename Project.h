@@ -154,5 +154,3 @@ void createEntryFile(FILE *entryFile, label **labels, int labelsCount);
 int checkAddressMethod3Possibility(char *operand);
 
 int removesNewLine(char *str);
-
-
